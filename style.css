@@ -37,7 +37,7 @@ p {
 }
 
 a {
-    color: blue;
+    color: #4A90E2;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ a:hover {
 
 /* Navigation */
 .navbar {
-    background-color: #333;
+    background-color: #87CEEB;
     color: white;
     padding: 0;
 }
@@ -82,7 +82,7 @@ a:hover {
 }
 
 .auth-btn {
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -92,7 +92,7 @@ a:hover {
 }
 
 .auth-btn:hover {
-    background-color: darkblue;
+    background-color: #357ABD;
 }
 
 .active-btn {
@@ -101,7 +101,7 @@ a:hover {
 
 /* Buttons */
 .btn {
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -111,25 +111,25 @@ a:hover {
 }
 
 .btn:hover {
-    background-color: darkblue;
+    background-color: #357ABD;
 }
 
 .btn-primary {
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
 }
 
 .btn-primary:hover {
-    background-color: darkblue;
+    background-color: #357ABD;
 }
 
 .btn-secondary {
-    background-color: orange;
+    background-color: #87CEEB;
     color: white;
 }
 
 .btn-secondary:hover {
-    background-color: darkorange;
+    background-color: #6FA8C7;
 }
 
 .btn-large {
@@ -138,7 +138,7 @@ a:hover {
 }
 
 .cta-btn {
-    background-color: orange;
+    background-color: #4A90E2;
     color: white;
     padding: 0.7rem 1.5rem;
     border: none;
@@ -147,12 +147,12 @@ a:hover {
 }
 
 .cta-btn:hover {
-    background-color: darkorange;
+    background-color: #357ABD;
 }
 
 /* Hero Section */
 .hero {
-    background-color: #0066cc;
+    background-color: #87CEEB;
     color: white;
     padding: 3rem 1rem;
     text-align: center;
@@ -176,23 +176,23 @@ a:hover {
 }
 
 .courses-preview {
-    background-color: #f5f5f5;
+    background-color: #F0F8FF;
 }
 
 .curriculum {
-    background-color: #fff9e6;
+    background-color: #FFFACD;
 }
 
 .offers {
-    background-color: #f0f8ff;
+    background-color: #E0F6FF;
 }
 
 .internships {
-    background-color: #f0fff0;
+    background-color: #F5F5DC;
 }
 
 .projects {
-    background-color: #f6f0ff;
+    background-color: #E6F2FF;
 }
 
 .section-header {
@@ -201,7 +201,7 @@ a:hover {
 }
 
 .page-header {
-    background-color: #ff6600;
+    background-color: #4A90E2;
     color: white;
     padding: 2rem 1rem;
     text-align: center;
@@ -258,23 +258,23 @@ a:hover {
 }
 
 .course-card:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .course-card:nth-child(1) {
-    background-color: #e6f2ff;
+    background-color: #B0E0E6;
 }
 
 .course-card:nth-child(2) {
-    background-color: #ffe6e6;
+    background-color: #ADD8E6;
 }
 
 .course-card:nth-child(3) {
-    background-color: #e6ffe6;
+    background-color: #E0FFFF;
 }
 
 .course-card:nth-child(4) {
-    background-color: #fff3e6;
+    background-color: #FFFACD;
 }
 
 .course-icon {
@@ -295,23 +295,23 @@ a:hover {
 }
 
 .course-card-full:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .course-card-full:nth-child(1) {
-    background-color: #ffe6e6;
+    background-color: #ADD8E6;
 }
 
 .course-card-full:nth-child(2) {
-    background-color: #e6ffe6;
+    background-color: #E0FFFF;
 }
 
 .course-card-full:nth-child(3) {
-    background-color: #e6f2ff;
+    background-color: #B0E0E6;
 }
 
 .course-card-full:nth-child(4) {
-    background-color: #fff3e6;
+    background-color: #FFFACD;
 }
 
 .course-header {
@@ -322,15 +322,15 @@ a:hover {
 }
 
 .course-category {
-    background-color: blue;
+    background-color: #87CEEB;
     color: white;
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
 }
 
 .course-level {
-    background-color: #e0e0e0;
-    color: blue;
+    background-color: #E0FFFF;
+    color: #4A90E2;
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
 }
@@ -357,7 +357,7 @@ a:hover {
 }
 
 .price {
-    color: blue;
+    color: #4A90E2;
     font-weight: bold;
 }
 
@@ -368,7 +368,7 @@ a:hover {
 }
 
 .internship-card:hover {
-    border-color: blue;
+    border-color: #87CEEB;
 }
 
 .internship-card p {
@@ -382,19 +382,19 @@ a:hover {
 }
 
 .internship-card-full:hover {
-    border-color: orange;
+    border-color: #87CEEB;
 }
 
 .internship-card-full:nth-child(1) {
-    background-color: #ffe6f0;
+    background-color: #ADD8E6;
 }
 
 .internship-card-full:nth-child(2) {
-    background-color: #e6f0ff;
+    background-color: #F5F5DC;
 }
 
 .internship-card-full:nth-child(3) {
-    background-color: #ffe6cc;
+    background-color: #E0FFFF;
 }
 
 .internship-header {
@@ -410,7 +410,7 @@ a:hover {
 }
 
 .internship-type {
-    background-color: green;
+    background-color: #87CEEB;
     color: white;
     padding: 0.2rem 0.5rem;
     font-size: 0.8rem;
@@ -442,7 +442,7 @@ a:hover {
 }
 
 .requirements h4, .responsibilities h4 {
-    color: blue;
+    color: #4A90E2;
 }
 
 .requirements ul, .responsibilities ul {
@@ -474,30 +474,30 @@ a:hover {
 }
 
 .curriculum-card:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .curriculum-card:nth-child(1) {
-    background-color: #e6ffe6;
+    background-color: #ADD8E6;
 }
 
 .curriculum-card:nth-child(2) {
-    background-color: #fff3e6;
+    background-color: #F0F8FF;
 }
 
 .curriculum-card:nth-child(3) {
-    background-color: #e6cff2;
+    background-color: #FFFACD;
 }
 
 .curriculum-card:nth-child(4) {
-    background-color: #ffe6e6;
+    background-color: #E0FFFF;
 }
 
 .curriculum-number {
     display: inline-block;
     width: 2rem;
     height: 2rem;
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     border-radius: 0;
     padding: 0.5rem;
@@ -527,19 +527,19 @@ a:hover {
 }
 
 .offer-card:hover {
-    border-color: orange;
+    border-color: #87CEEB;
 }
 
 .offer-card:nth-child(1) {
-    background-color: #fff0e6;
+    background-color: #ADD8E6;
 }
 
 .offer-card:nth-child(2) {
-    background-color: #e6f0ff;
+    background-color: #B0E0E6;
 }
 
 .offer-card:nth-child(3) {
-    background-color: #f0e6ff;
+    background-color: #FFFACD;
 }
 
 .offer-featured {
@@ -575,23 +575,23 @@ a:hover {
 }
 
 .project-card:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .project-card:nth-child(1) {
-    background-color: #e6e6ff;
+    background-color: #B0E0E6;
 }
 
 .project-card:nth-child(2) {
-    background-color: #ffe6f0;
+    background-color: #E0FFFF;
 }
 
 .project-card:nth-child(3) {
-    background-color: #e6ffe6;
+    background-color: #ADD8E6;
 }
 
 .project-card:nth-child(4) {
-    background-color: #fff3cc;
+    background-color: #FFFACD;
 }
 
 .project-image {
@@ -629,13 +629,13 @@ a:hover {
 }
 
 .step:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .step-number {
     width: 2rem;
     height: 2rem;
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     border-radius: 0;
     display: flex;
@@ -709,7 +709,7 @@ a:hover {
 
 .form-group input:focus {
     outline: none;
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .form-options {
@@ -728,7 +728,7 @@ a:hover {
 }
 
 .forgot-password {
-    color: blue;
+    color: #4A90E2;
     font-size: 0.85rem;
 }
 
@@ -768,7 +768,7 @@ a:hover {
 }
 
 .btn-social:hover {
-    border-color: blue;
+    border-color: #4A90E2;
 }
 
 .form-switch {
@@ -779,12 +779,12 @@ a:hover {
 }
 
 .form-switch a {
-    color: blue;
+    color: #4A90E2;
     cursor: pointer;
 }
 
 .auth-info {
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     padding: 1rem;
 }
@@ -836,7 +836,7 @@ a:hover {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #4A90E2;
     color: white;
     padding: 1rem;
     margin-top: 2rem;
@@ -883,7 +883,7 @@ a:hover {
 
 /* CTA Section */
 .cta-section {
-    background-color: blue;
+    background-color: #4A90E2;
     color: white;
     text-align: center;
     padding: 2rem 1rem;
@@ -903,11 +903,11 @@ a:hover {
 
 .cta-section .cta-btn {
     background-color: white;
-    color: blue;
+    color: #4A90E2;
 }
 
 .cta-section .cta-btn:hover {
-    background-color: #ddd;
+    background-color: #F0F8FF;
 }
 
 /* Filters */
