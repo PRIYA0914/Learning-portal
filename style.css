@@ -1,0 +1,983 @@
+/* Basic Student Portal Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 0;
+}
+
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.auth-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+.auth-btn:hover {
+    background-color: darkblue;
+}
+
+.active-btn {
+    background-color: darkblue;
+}
+
+/* Buttons */
+.btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.btn:hover {
+    background-color: darkblue;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: darkblue;
+}
+
+.btn-secondary {
+    background-color: orange;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: darkorange;
+}
+
+.btn-large {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+}
+
+.cta-btn {
+    background-color: orange;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.cta-btn:hover {
+    background-color: darkorange;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #0066cc;
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.hero h1 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+/* Sections */
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.courses-preview {
+    background-color: #f5f5f5;
+}
+
+.curriculum {
+    background-color: #fff9e6;
+}
+
+.offers {
+    background-color: #f0f8ff;
+}
+
+.internships {
+    background-color: #f0fff0;
+}
+
+.projects {
+    background-color: #f6f0ff;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.page-header {
+    background-color: #ff6600;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+/* Grids */
+.courses-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.internships-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.curriculum-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.courses-grid-full {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.internships-grid-full {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Cards */
+.course-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.course-card:hover {
+    border-color: blue;
+}
+
+.course-card:nth-child(1) {
+    background-color: #e6f2ff;
+}
+
+.course-card:nth-child(2) {
+    background-color: #ffe6e6;
+}
+
+.course-card:nth-child(3) {
+    background-color: #e6ffe6;
+}
+
+.course-card:nth-child(4) {
+    background-color: #fff3e6;
+}
+
+.course-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-duration {
+    color: blue;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.course-card-full {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-left: 3px solid blue;
+}
+
+.course-card-full:hover {
+    border-color: blue;
+}
+
+.course-card-full:nth-child(1) {
+    background-color: #ffe6e6;
+}
+
+.course-card-full:nth-child(2) {
+    background-color: #e6ffe6;
+}
+
+.course-card-full:nth-child(3) {
+    background-color: #e6f2ff;
+}
+
+.course-card-full:nth-child(4) {
+    background-color: #fff3e6;
+}
+
+.course-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.course-category {
+    background-color: blue;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.course-level {
+    background-color: #e0e0e0;
+    color: blue;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.course-description {
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.course-details {
+    display: flex;
+    justify-content: space-around;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    background-color: #f0f0f0;
+    font-size: 0.9rem;
+}
+
+.course-meta {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.price {
+    color: blue;
+    font-weight: bold;
+}
+
+/* Internship Cards */
+.internship-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.internship-card:hover {
+    border-color: blue;
+}
+
+.internship-card p {
+    font-size: 0.9rem;
+}
+
+.internship-card-full {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-top: 3px solid orange;
+}
+
+.internship-card-full:hover {
+    border-color: orange;
+}
+
+.internship-card-full:nth-child(1) {
+    background-color: #ffe6f0;
+}
+
+.internship-card-full:nth-child(2) {
+    background-color: #e6f0ff;
+}
+
+.internship-card-full:nth-child(3) {
+    background-color: #ffe6cc;
+}
+
+.internship-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.internship-header h3 {
+    margin: 0;
+}
+
+.internship-type {
+    background-color: green;
+    color: white;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.8rem;
+}
+
+.company-info {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.internship-details {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+}
+
+.internship-description {
+    text-align: left;
+    margin: 0.5rem 0;
+}
+
+.requirements, .responsibilities {
+    background-color: #f0f0f0;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.requirements h4, .responsibilities h4 {
+    color: blue;
+}
+
+.requirements ul, .responsibilities ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.requirements li, .responsibilities li {
+    margin: 0.3rem 0;
+    padding-left: 1.2rem;
+    position: relative;
+}
+
+.requirements li::before, .responsibilities li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: green;
+}
+
+/* ============================================
+   CURRICULUM CARDS
+   ============================================ */
+
+.curriculum-card {
+    border: 1px solid #000;
+    padding: 1rem;
+    text-align: center;
+}
+
+.curriculum-card:hover {
+    border-color: blue;
+}
+
+.curriculum-card:nth-child(1) {
+    background-color: #e6ffe6;
+}
+
+.curriculum-card:nth-child(2) {
+    background-color: #fff3e6;
+}
+
+.curriculum-card:nth-child(3) {
+    background-color: #e6cff2;
+}
+
+.curriculum-card:nth-child(4) {
+    background-color: #ffe6e6;
+}
+
+.curriculum-number {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.curriculum-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* ============================================
+   OFFERS CARDS
+   ============================================ */
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.offer-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.offer-card:hover {
+    border-color: orange;
+}
+
+.offer-card:nth-child(1) {
+    background-color: #fff0e6;
+}
+
+.offer-card:nth-child(2) {
+    background-color: #e6f0ff;
+}
+
+.offer-card:nth-child(3) {
+    background-color: #f0e6ff;
+}
+
+.offer-featured {
+    border: 2px solid orange;
+}
+
+.discount-badge {
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.offer-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.offer-validity {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+/* ============================================
+   PROJECT CARDS
+   ============================================ */
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+}
+
+.project-card:hover {
+    border-color: blue;
+}
+
+.project-card:nth-child(1) {
+    background-color: #e6e6ff;
+}
+
+.project-card:nth-child(2) {
+    background-color: #ffe6f0;
+}
+
+.project-card:nth-child(3) {
+    background-color: #e6ffe6;
+}
+
+.project-card:nth-child(4) {
+    background-color: #fff3cc;
+}
+
+.project-image {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-card h3 {
+    margin-bottom: 0.5rem;
+}
+
+.project-author {
+    color: blue;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.app-info {
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.step {
+    background: white;
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.step:hover {
+    border-color: blue;
+}
+
+.step-number {
+    width: 2rem;
+    height: 2rem;
+    background-color: blue;
+    color: white;
+    border-radius: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 0 auto 0.5rem;
+}
+
+.step h3 {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.auth-section {
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+.auth-form {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.auth-form.hidden {
+    display: none;
+}
+
+.auth-form h2 {
+    margin-bottom: 0.5rem;
+}
+
+.form-subtitle {
+    color: #666;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 0.9rem;
+    font-family: inherit;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: blue;
+}
+
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin: 0.5rem 0;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.85rem;
+}
+
+.forgot-password {
+    color: blue;
+    font-size: 0.85rem;
+}
+
+.form-divider {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+}
+
+.form-divider::before,
+.form-divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.form-divider span {
+    color: #666;
+    font-size: 0.8rem;
+}
+
+.social-login {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-social {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.btn-social:hover {
+    border-color: blue;
+}
+
+.form-switch {
+    text-align: center;
+    color: #666;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.form-switch a {
+    color: blue;
+    cursor: pointer;
+}
+
+.auth-info {
+    background-color: blue;
+    color: white;
+    padding: 1rem;
+}
+
+.auth-info h3 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.benefits-list {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.benefits-list li {
+    padding-left: 1.2rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.benefits-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: white;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.stat {
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.stat-number {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.stat-label {
+    font-size: 0.75rem;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-content {
+    display: none;
+}
+
+.footer-section h4 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.footer-section p {
+    color: #ccc;
+    margin-bottom: 0.3rem;
+    font-size: 0.8rem;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.3rem;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    font-size: 0.8rem;
+}
+
+.footer-section ul li a:hover {
+    color: white;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 1rem auto;
+}
+
+.cta-section h2 {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.cta-section .cta-btn {
+    background-color: white;
+    color: blue;
+}
+
+.cta-section .cta-btn:hover {
+    background-color: #ddd;
+}
+
+/* Filters */
+.filters {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.3rem;
+    }
+
+    h2 {
+        font-size: 1.1rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+    }
+
+    .courses-grid,
+    .internships-grid,
+    .projects-grid,
+    .curriculum-grid,
+    .offers-grid,
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-container {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.1rem;
+    }
+
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .nav-links {
+        gap: 0.5rem;
+        font-size: 0.8rem;
+    }
+
+    .section {
+        padding: 1rem;
+    }
+
+    .courses-grid,
+    .internships-grid,
+    .projects-grid,
+    .curriculum-grid,
+    .offers-grid,
+    .steps {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+}
